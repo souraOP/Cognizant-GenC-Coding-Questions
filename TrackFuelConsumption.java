@@ -41,7 +41,6 @@ Enter the no of liters to fill the tank:   -5
 Sample Output 2:   -5 is an Invalid Input
 
 
-
 Sample Input 3:
 
 Enter the no of liters to fill the tank:  25
@@ -58,23 +57,19 @@ public class TrackFuelConsumption{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the no. of liters to fill the tank: ");
         int liters = sc.nextInt();
-
         if(liters < 1) {
             System.out.println(liters + " is an Invalid Input");
             System.exit(0);
         }
         System.out.print("Enter the distance covered: ");
         int distance = sc.nextInt();
-        
         if(distance < 1){
             System.out.println(distance + " is an Invalid Input");
             System.exit(0);
         }
-
         //calculation for 100km distance
         double kilometerCalculation = ((double)(liters*1.00) / (double)(distance * 1.00)) * 100;
         System.out.printf("Liters/100KM: %.2f\n", kilometerCalculation);
-
         //calculation into US Standard
         // converting KM to Miles
         double miles_calculation = (double)(distance * 1.00) * 0.6214;
