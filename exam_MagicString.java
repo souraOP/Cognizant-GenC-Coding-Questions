@@ -18,7 +18,7 @@ output: 8
 */
 import java.util.*;
 
-public class MagicString {
+public class exam_MagicString {
     static int getMagicString(String str){
         int[] charCount = new int[26];
         for(char c: str.toCharArray()){

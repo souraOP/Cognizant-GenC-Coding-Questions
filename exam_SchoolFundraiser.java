@@ -19,7 +19,7 @@ output: 4
 
 import java.util.HashMap;
 
-public class SchoolFundraiser {
+public class exam_SchoolFundraiser {
     public static void main(String[] args) {
         // Scanner sc = new Scanner(System.in);
         int[] arr = {1, 2, 3, 2};

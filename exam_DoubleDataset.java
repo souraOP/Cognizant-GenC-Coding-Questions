@@ -19,9 +19,9 @@ output: [1, 2, 1, 1, 2, 1]
 
 */
 
-import java.util.*;
+// import java.util.*;
 
-public class DoubleDataset {
+public class exam_DoubleDataset {
     public static int[] doubleDataset(int[] arr, int n){
         int[] output = new int[2 * n];
         for(int i = 0; i < n; i++){
