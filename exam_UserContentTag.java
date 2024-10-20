@@ -18,7 +18,7 @@ output: [5, 6]
 
 import java.util.*;
 
-public class UserContentTag {
+public class exam_UserContentTag {
     static int[] findMissingTags(int n, int[] arr){
         boolean[] usedTags = new boolean[n + 1];
         for(int tag: arr){
