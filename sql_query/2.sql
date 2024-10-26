@@ -12,8 +12,13 @@ You can view the database schema by clicking the View Schema tab at the bottom o
 */
 
 SELECT
-    AUTHORNAME, CITY, DATEOFBIRTH, STATE
+    author_name AS "AUTHORNAME", 
+    city AS "CITY",
+    date_of_birth AS "DATEOFBIRTH",
+    state AS "STATE"
 FROM
-    Authors
+    authors
 WHERE
-    DATEOFBIRTH < '1965-01-01' AND STATE = 'Arizona';
+    date_of_birth < '1965-01-01' 
+    AND 
+    state = 'Arizona';
