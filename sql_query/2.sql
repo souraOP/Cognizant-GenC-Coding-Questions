@@ -7,7 +7,8 @@ Your output should have 4 columns as given below:
 
 AUTHORNAME  |  CITY  |  DATEOFBIRTH  | STATE
 
-You can view the database schema by clicking the View Schema tab at the bottom of the query window on the right-hand side of the screen.
+You can view the database schema by clicking the View Schema tab at the bottom of the query window on the 
+right-hand side of the screen.
 
 */
 

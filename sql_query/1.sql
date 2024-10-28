@@ -1,13 +1,13 @@
 /*
-The flight ID and the name of the pilot(s) for all flights departing from 'Dubai' where the pilots have designation 'Captain'. The pilot's name should be displayed by joining FIRST_NAME and LAST_NAME with a space.
+The flight ID and the name of the pilot(s) for all flights departing from 'Dubai' where the pilots have designation 
+'Captain'. The pilot's name should be displayed by joining FIRST_NAME and LAST_NAME with a space.
 
 Your output should have two columns as given below:
 
 FLIGHT_ID  |   Pilot_Name
 
-
-You can view the database schema by clicking the View Schema tab at the bottom of the query window on the right-hand side of the screen.
-
+You can view the database schema by clicking the View Schema tab at the bottom of the query window on the 
+right-hand side of the screen.
 */
 
 SELECT 
